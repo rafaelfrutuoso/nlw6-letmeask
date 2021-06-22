@@ -21,7 +21,7 @@ export function Home(){
                     <img src={logoImg} alt="Letmeask"/>
                     <button className="create-room">
                         <img src={googleIconImg} alt="Logo da google" />
-                        Crie sua sala com google.
+                        Crie sua sala com google
                     </button>
                     <div className='separator'>ou entre em uma sala</div>
                     <form action="">

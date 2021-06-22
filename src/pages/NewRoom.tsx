@@ -7,7 +7,7 @@ import { Button } from '../components/Button'
 
 import '../styles/button.scss'
 
-export function Home(){
+export function NewRoom(){
 
     return(
         <div id='page-auth'>
@@ -19,18 +19,15 @@ export function Home(){
             <main>
                 <div className="main-content">
                     <img src={logoImg} alt="Letmeask"/>
-                    <button className="create-room">
-                        <img src={googleIconImg} alt="Logo da google" />
-                        Crie sua sala com google
-                    </button>
-                    <div className='separator'>ou entre em uma sala</div>
+                    <h2>Criar uma nova sala</h2>
                     <form action="">
                         <input 
                           type="text"
-                          placeholder="Digite o codigo da sala"
+                          placeholder="Nome da sala"
                         />
-                        <Button type="submit">Entra na sala</Button>
+                        <Button type="submit">Criar na sala</Button>
                     </form>
+                    <p>Que entra numa sala existente?  <a href="">click aqui</a></p>
                 </div>
             </main>
         </div>

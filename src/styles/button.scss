@@ -1,0 +1,34 @@
+.button{
+    margin-top: 64px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0 32px;
+    background: #835afd;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 0;
+
+    &:not(:disabled):hover{
+      border: 1px solid #835afd;
+      background: #7146f0;
+      box-shadow: -5px -5px 5px rgba(185, 123, 123, 0.05),
+                   2px 2px 2px rgba(128, 94, 94, 0.05),
+                   inset -5px -5px 5px rgba(255,255,255,0.05),
+                   inset 2px 2px 2px rgba(0, 0, 0, 0.05);
+                 
+    }
+    &:disabled{
+        opacity: 0.8;
+        cursor: no-drop;
+    }
+    img{
+        margin-right: 8px;
+    }
+}

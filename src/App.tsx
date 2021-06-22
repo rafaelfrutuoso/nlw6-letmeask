@@ -9,6 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Route path='/' component={Home}></Route>
+      <Route path='/NewRoom' component={NewRoom}></Route>
 
     </BrowserRouter>
   );

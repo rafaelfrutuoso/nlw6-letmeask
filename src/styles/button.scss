@@ -12,16 +12,19 @@
     align-items: center;
 
     cursor: pointer;
-    transition: all 0.5s;
+    transition: filter 0.2s;
     border: 0;
 
+    &.outlined{
+        background: #ffff;
+        color: #835afd;
+        border: 1px solid #7146f0;
+    }
+  
     &:not(:disabled):hover{
-      border: 1px solid #835afd;
-      background: #7146f0;
-      box-shadow: -5px -5px 5px rgba(185, 123, 123, 0.05),
-                   2px 2px 2px rgba(128, 94, 94, 0.05),
-                   inset -5px -5px 5px rgba(255,255,255,0.05),
-                   inset 2px 2px 2px rgba(0, 0, 0, 0.05);
+   
+        filter: brightness(0.9) ;
+        
                  
     }
     &:disabled{

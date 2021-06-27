@@ -7,6 +7,20 @@
     & + .question{
         margin-top: 8px;
     }
+    &.highlighted {
+      background: #f4f0ff;
+      border: 1px solid #835AFD;
+  
+      footer .user-info span {
+        color: #29292E;
+      }
+    }
+  
+    &.answered {
+      background: #DBDCDD;
+      background: #f0fff2;
+      border: 1px solid #5ffd5a;
+    }
 
     p{
         color: #000;
